@@ -5,66 +5,76 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Red-Hat Enterprise Linux",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://coursera.org/share/511a12671c12efbe1912ef292beea5b8",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
+    title: "Data Structure and Performance",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://coursera.org/share/0aeafac283b9ba40f9df356a9eae688a",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
+    title: "Algorithmic Toolbox",
     cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/b2b0e0007db1e6d1205d341dc011ed77",
+  },
+  {
+    title: "Microsoft Azure Management Tools",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/e30f3eec22df231830856670a110f1a3",
+  },
+  {
+    title: "Android",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/587643c96acdc055028224bb70a4e77f",
+  },
+  {
+    title: "Android",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/733f26f5589b6543515314616dd4d619",
+  },
+  {
+    title: "FrontEnd Web UI Framework and Tools",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/cfc4f8caca58f8a6fbda231c901b9e8c",
+  },
+  {
+    title: "Automate Cybersecurity with Python",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/b2553839d2a0701ff0ac91347bb01092",
+  },
+  {
+    title: "Principles of UI/UX Design",
+    cardImage: "assets/images/education-page/coursera2.svg",
+    moocLink: "https://coursera.org/share/9a47859d338c07ff96170ade9342533e",
+  },
+  {
+    title: "Try HAck Me- Badges",
+    cardImage: "assets/images/education-page/thm.jpeg",
+    moocLink: "https://tryhackme.com/p/err0r401",
+  },
+  {
+    title: "Time Management and Ways of Thinking",
+    cardImage: "assets/images/education-page/linkedin.jpeg",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://www.linkedin.com/learning-login/share?account=92961692&forceAccount=true&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpaths%2Fchandigarh-university-time-management-ways-of-thinking-17001327%3Ftrk%3Dshare_ent_path_url%26shareId%3DyzSoLQ6fSYuPuEsA%252BNkCmQ%253D%253D",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Ethics and Gender Equality",
+    cardImage: "assets/images/education-page/linkedin.jpeg",
+    moocLink: "https://www.linkedin.com/learning-login/share?account=92961692&forceAccount=true&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpaths%2Fchandigarh-university-ethics-and-gender-equality%3Ftrk%3Dshare_ent_path_url%26shareId%3DdrsYWPQNSR%252Bhm0WNbdm3%252BA%253D%253D",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    title: "Entrepreneurship",
+    cardImage: "assets/images/education-page/linkedin.jpeg",
+    moocLink: "https://www.linkedin.com/learning-login/share?account=92961692&forceAccount=true&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpaths%2Fchandigarh-university-entrepreneurship%3Ftrk%3Dshare_ent_path_url%26shareId%3Dfj15tkLTRPyeOdomo1i6kA%253D%253D",
   },
   {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
+    title: "Academic Paper Writing and IPR",
+    cardImage: "assets/images/education-page/linkedin.jpeg",
     moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+      "https://www.linkedin.com/learning-login/share?account=92961692&forceAccount=true&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpaths%2Fchandigarh-university-academic-paper-writing-and-ipr-14523090%3Ftrk%3Dshare_ent_path_url%26shareId%3DpsXaCiueRn23gVJ0X0tGUA%253D%253D",
   },
 ];
 

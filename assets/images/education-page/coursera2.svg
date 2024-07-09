@@ -6,7 +6,7 @@
 
 @media (prefers-color-scheme: dark) {
       path {
-        fill: #000000; <!-- set icon color for dark mode -->
+        fill: <div id="0000FF"></div>; <!-- set icon color for dark mode -->
         opacity: 0.5;
       }
     }

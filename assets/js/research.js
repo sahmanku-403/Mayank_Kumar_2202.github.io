@@ -4,145 +4,40 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "Online Dijkstra Algorithm",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Aadyant Tripathi, Mayank Kumar, Kirti Pandey, Krishna Singh, Katyayani Shukla",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "Scopus-Indexed, IEEE Conference",
+    researchYr: 2024,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "assets/images/research-page/dijkstra.jpeg",
     citation: {
       vancouver:
-        "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
+        "Aadyant Tripathi, Mayank Kumar, Kirti Pandey, Krishna Singh and Katyayani Shukla, A method for the shortest path search by extended Dijkstra algorithm, Smc 2024 conference proceedings. 2024 ieee international conference on systems, man and cybernetics. 'cybernetics evolving to systems, humans, organizations, and their complex interactions' (cat. no.0, Nashville, TN, USA, 2024, pp. 2316-2320 vol.3, doi: 10.112202/ICSMC.2024.886462. keywords: {Search problems;Navigation;Search methods;Costs;Road transportation;Communication networks;Explosives;Hardware;Genetic mutations},"
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      "This research explores the optimization of network paths through a formal study of Online Dijkstra Algorithm Solvers. We rigorously analyze the efficiency, reliability, and suitability of these solvers across diverse network scenarios, considering algorithmic intricacies and computational complexities.",
     absbox: "absPopup1",
   },
 
+
   {
-    title: "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    title:
+      "Car Parking Management System",
     authors:
-      "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+      "Mayank kumar, Kislay komal",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup2",
-    image: "assets/images/research-page/crossLingual.png",
-    citation: {
-      vancouver:
-        "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 2",
-    absbox: "absPopup2",
-  },
-
-  {
-    title:
-      "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
-    citation: {
-      vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
-    absbox: "absPopup3",
-  },
-
-  {
-    title:
-      "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-    authors:
-      "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup4",
-    image: "assets/images/research-page/dialogueState.png",
-    citation: {
-      vancouver:
-        "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 4",
-    absbox: "absPopup4",
-  },
-
-  {
-    title: "Dual Super-Resolution Learning for Semantic Segmentation",
-    authors: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup5",
-    image: "assets/images/research-page/semanticSegmentation.png",
-    citation: {
-      vancouver:
-        "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 5",
-    absbox: "absPopup5",
-  },
-
-  {
-    title: "Deep Unfolding Network for Image Super-Resolution",
-    authors: "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup6",
-    image: "assets/images/research-page/deepNetwork.png",
-    citation: {
-      vancouver:
-        "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 6",
-    absbox: "absPopup6",
-  },
-
-  {
-    title:
-      "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-    authors: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
-    citebox: "popup7",
-    image: "assets/images/research-page/imageDecomposition.png",
-    citation: {
-      vancouver:
-        "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 7",
-    absbox: "absPopup7",
-  },
-  {
-    title:
-      "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-    authors:
-      "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-    conferences:
-      "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-    researchYr: 2020,
+      "IEEE Conference on Vehicle Parking Management System",
+    researchYr: 2022,
     citebox: "popup8",
-    image: "assets/images/research-page/neuralNetworks.jpg",
+    image: "assets/images/research-page/car parking system.jpeg",
     citation: {
       vancouver:
-        "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020.",
+        "Mayank Kumar and Kislay Komal, Vehicle Parking Management System, 2022 International Conference on Convergence to Digital World - Quo Vadis (ICCDW), Mumbai, India, 2022, pp. 1-6, doi: 10.1109/ICCDW45521.2022.9318673. keywords: {Automobiles;Wireless sensor networks;Databases;Mobile applications;Internet of Things;Acoustics;Wireless fidelity;WSNs;IR sensors;parking area;QR code;booking slot;application}"
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 8",
+      "Due to the increasing population in urban cities, there is an exponential rise in the number of vehicles which is leading to major problems leading to poor traffic management and congestion. Another major problem faced by the vehicle owners is the availability of parking space. The idea of Smart Cities is slowly gaining pace with the ever increasing technologies. Therefore, in the proposed parking system we are integrating the Wireless Sensor Technology with the Android Application so that the user can book or pre-book a slot. The vehicle owner will be able to reserve a slot for his/her vehicle from anywhere and will be provided with a QR code which will be scanned on the entry of the parking area. Another feature our system provides is providing information about the near-by parking areas which comes handy when the current parking area is full.",
     absbox: "absPopup8",
   },
 ];
